@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	@media #{$medium-up} {
+	}
+	@media #{$large-up} {
+	}
+}
+
+//helper for font weight
+//Open+Sans:400,700,800|Raleway:400,200,700
+.font-light {
+	font-weight: 200;
+}
+.font-weight-normal {
+	font-weight: 400;
+}
+.font-bold {
+	font-weight: 700;
+}
+.font-heavy {
+	font-weight: 800;
+}
+
+.quiet {
+	font-size: 80%;
+}
+
+body {
+  background-image:url(../assets/images/blur.png);
+
+	background-attachment:fixed;
+	background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: repeat-x;
+}
+
+.callout {
+	font-weight: normal;;
+  font-size: 22px;
+  border-radius: 5px;
+	color: transparent;
+	text-shadow: 0 0 8px rgba( 0, 0, 0, 0.5);
+}
+
+.callout.location {
+  background: rgba(128,129,132, 0.8);
+}
+
+.callout.time {
+  background: rgba(112,34,105, 0.8);
+}
+
+.callout.pause {
+  background: rgba(255, 102, 153,0.8);
+}
+
+.callout.talk {
+  background: rgba(51, 204, 204,0.8);
+}
+
+.callout.lab {
+  background: rgba(153, 204, 153, 0.8);
+}
+
+.callout.game {
+	background: rgba(245,138,51, 0.8);
+}
+
+.callout.dinner {
+	background: rgba(255,243,80, 0.8);
+}
+
+.callout.prep {
+  background: rgba(11, 47, 119, 0.8);
+}
+
+.callout.opening {
+  background: rgba(237,49,47, 0.8);
+}

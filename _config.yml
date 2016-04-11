@@ -1,0 +1,13 @@
+name :
+brand :
+description :
+keyword :
+url : https://localofficeday.github.io
+email : 
+twitter :
+github :
+author :
+analytics :
+markdown : kramdown
+exclude :
+  - node_modules
