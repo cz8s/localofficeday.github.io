@@ -4283,7 +4283,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 80%; }
 
 body {
-  background-image: url(../assets/images/blur.png);
+  background-image: url(../assets/images/blur_2.png);
   background-attachment: fixed;
   background-position: 50% 50%;
   background-size: 100%;
@@ -4293,8 +4293,8 @@ body {
   font-weight: normal;
   font-size: 22px;
   border-radius: 5px;
-  color: transparent;
-  text-shadow: 0 0 8px rgba(0, 0, 0, 0.5); }
+  color: white;
+  /* Are you really that impatient :) ? */ }
 
 .callout.location {
   background: rgba(128, 129, 132, 0.8); }
@@ -4314,8 +4314,8 @@ body {
 .callout.game {
   background: rgba(245, 138, 51, 0.8); }
 
-.callout.dinner {
-  background: rgba(255, 243, 80, 0.8); }
+.callout.food {
+  background: rgba(191, 189, 10, 0.8); }
 
 .callout.prep {
   background: rgba(11, 47, 119, 0.8); }
